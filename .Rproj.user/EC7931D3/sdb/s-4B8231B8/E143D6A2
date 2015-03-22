@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426444520322.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E143D6A2",
+    "lastKnownWriteTime" : 19140500285161519,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Returns",
+        "contentUrl" : "content?title=Returns&file=eddcd210ac364fc190c87cd0c1cba55d.htm",
+        "displayedObservations" : 761,
+        "displayedVariables" : 100,
+        "totalObservations" : 761,
+        "variables" : 151
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

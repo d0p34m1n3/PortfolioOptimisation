@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426441562863.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FB43ACF0",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "PortfolioPositions",
+        "contentUrl" : "content?title=PortfolioPositions&file=a85ac1dc0e5f41018347625b2729897e.htm",
+        "displayedObservations" : "58",
+        "displayedVariables" : 8,
+        "totalObservations" : "58",
+        "variables" : "8"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
