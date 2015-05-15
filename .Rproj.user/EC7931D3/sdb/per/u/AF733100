@@ -1,0 +1,17 @@
+{
+    "contents" : "rm(list=ls())\n\nObjectDir <- 'F:/MindlessInvesting/R/Objects'\nScriptDir <- 'D:/MindlessInvesting/R/Scripts'\nConnectionString <- 'Server=CICERO\\\\SQLPROD;Database=MindlessInvesting;Trusted_Connection=True;Connection Timeout=600'\nDivinationEntityId <- 1348808 # Equity Model 4W\nPortfolioEntityId <- 324885 # Equity Model 4W\nNewPortfolioEntityId <- 325609 # TempPort\nDate <- '2015-05-08'",
+    "created" : 1431162271413.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2482101948",
+    "id" : "AF733100",
+    "lastKnownWriteTime" : 19140693558689884,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

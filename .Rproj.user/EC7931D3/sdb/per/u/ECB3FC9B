@@ -1,0 +1,17 @@
+{
+    "contents" : "CalcTransCost <- function(PriceTrading, Shares, AvgDailyShares, AnnualVolatility) {\n  InstantImpact1  = 35 * (100 * abs(Shares) / AvgDailyShares) ^ 0.65 + 0.3 * (10000 * AnnualVolatility / sqrt(252)) + 15\n  InstantImpact2  = 25 * (100 * abs(Shares) / AvgDailyShares) ^ 0.38 * (10000 * AnnualVolatility / sqrt(252)) ^ 0.28\n  InstantImpact  = (InstantImpact1 + InstantImpact2) / 2\n  MarketImpactCost  = InstantImpact * (0.95 * abs(Shares) / (abs(Shares) + AvgDailyShares / 2) + 0.05)\n  PriceMovementCost   = 0\n  FixedBrokerageCostBPS  = 0\n  FixedBrokerageCostCents  = 0.75\n\n  return ((MarketImpactCost + PriceMovementCost  + FixedBrokerageCostBPS) / 10000 + FixedBrokerageCostCents / PriceTrading / 100)\n}\n\nprint(CalcTransCost(Candidates$TCPriceTrading, abs(Quantities), Candidates$TCAvgVolume, Candidates$TCVolatility))",
+    "created" : 1430926765942.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "381159393",
+    "id" : "ECB3FC9B",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
